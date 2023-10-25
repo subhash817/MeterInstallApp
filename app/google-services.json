@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "530332227808",
+    "firebase_url": "https://meterinstallationapp.firebaseio.com",
+    "project_id": "meterinstallationapp",
+    "storage_bucket": "meterinstallationapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:530332227808:android:6240f9e0de7d9ee9fe9885",
+        "android_client_info": {
+          "package_name": "com.rjdev.meterinstallapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "530332227808-g8sbshhatpj7o9e55sim5nfejml9915m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rjdev.meterinstallapp",
+            "certificate_hash": "fb9b69f8f84d6b41b0723bf44725b8fa49798a41"
+          }
+        },
+        {
+          "client_id": "530332227808-kb33kthoo2ad5evpmnbbmhjmih50g07k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwVnrpk7zfD0LxesyEm_vKa9KZUyxo-U4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "530332227808-kb33kthoo2ad5evpmnbbmhjmih50g07k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

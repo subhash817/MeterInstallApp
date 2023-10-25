@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SIPS MIG</string>
+    <string name="customer_no">Customer Number</string>
+    <string name="meter_no">Meter No</string>
+    <string name="protocol_no">Protocol No</string>
+    <string name="installtion_date">Installation Date</string>
+    <string name="installtion_type">Meter Make</string>
+    <string name="gps_coordinate">GPS Co-ordinates</string>
+    <string name="use_your_location">Use your Location</string>
+    <string name="for_marking_attendence_punch_in_or_punch_out">For marking location of the Meter Installation.</string>
+    <string name="sips_hrms_collects_location_data_with_geo_fencing_for_marking_attendance_correctly_when_the_app_is_closed_or_not_in_use">MIG collects location data with geo fencing, for getting location of the installation site when the app is closed or not in use.</string>
+    <string name="employee_id">Employee Id :</string>
+
+</resources>

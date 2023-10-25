@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.Day_closer_Activity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="2dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="Total MR Ganerate"
+                android:gravity="center_vertical"
+                android:layout_weight="1"/>
+            <EditText
+                android:layout_width="0dp"
+                android:id="@+id/mrg"
+                android:minHeight="50dp"
+                android:gravity="center"
+                android:layout_height="match_parent"
+                android:background="@drawable/focusable_border"
+                android:layout_weight="1"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="2dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="Total Amount Collections"
+                android:gravity="center_vertical"
+                android:layout_weight="1"/>
+            <EditText
+                android:layout_width="0dp"
+                android:id="@+id/ac"
+                android:minHeight="50dp"
+                android:gravity="center"
+                android:layout_height="match_parent"
+                android:background="@drawable/focusable_border"
+                android:layout_weight="1"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="2dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="cash"
+                android:gravity="center_vertical"
+                android:layout_weight="1"/>
+            <EditText
+                android:layout_width="0dp"
+                android:id="@+id/cas"
+                android:minHeight="50dp"
+                android:gravity="center"
+                android:layout_height="match_parent"
+                android:background="@drawable/focusable_border"
+                android:layout_weight="1"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="2dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="Cheque"
+                android:gravity="center_vertical"
+                android:layout_weight="1"/>
+            <EditText
+                android:layout_width="0dp"
+                android:id="@+id/check"
+                android:minHeight="50dp"
+                android:gravity="center"
+                android:layout_height="match_parent"
+                android:background="@drawable/focusable_border"
+                android:layout_weight="1"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="2dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="DD"
+                android:gravity="center_vertical"
+                android:layout_weight="1"/>
+            <EditText
+                android:layout_width="0dp"
+                android:id="@+id/dooo"
+                android:minHeight="50dp"
+                android:gravity="center"
+                android:layout_height="match_parent"
+                android:background="@drawable/focusable_border"
+                android:layout_weight="1"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="2dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="Online" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:id="@+id/online"
+                android:minHeight="50dp"
+                android:gravity="center"
+                android:layout_height="match_parent"
+                android:background="@drawable/focusable_border"
+                android:layout_weight="1"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@color/grey1"
+                android:layout_margin="2dp"
+                android:id="@+id/rl_addimgmeter"
+                android:padding="10dp"
+                android:layout_weight="1">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:id="@+id/idb"
+                   android:gravity="center"
+
+                    android:text="Upload TPCODL Recipt"/>
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:id="@+id/img_meter"
+                    android:layout_marginTop="10dp"
+                    android:layout_centerInParent="true"
+                    android:background="@color/white"
+                    android:layout_below="@+id/idb"
+                    />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:text="SUBMIT">
+
+</Button>
+
+    </LinearLayout>
+
+
+</LinearLayout>
